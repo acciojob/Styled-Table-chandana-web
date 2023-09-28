@@ -1,1 +1,33 @@
-/* your code */
+table{
+	width: 100%;/* your code */
+	font-family: sans-serif;
+	border-collapse: collapse;
+	text-align: left;
+}
+#g{
+	background-color: lightgray;
+}
+#h{
+	background-color: royalblue;
+	color: white;
+}
+th,td{
+	padding: 10px 80px 10px 10px
+}
+#n{
+	padding: 10px 200px 10px 10px
+}
+tr:first-child th:first-child{
+	border-top-left-radius: 15px;
+}
+tr:first-child th:last-child{
+	border-top-right-radius: 15px;
+}
+tr:last-child td:first-child{
+	border-bottom-left-radius: 15px;
+}
+tr:last-child td:last-child{
+	border-bottom-right-radius: 15px;
+}
+
+
